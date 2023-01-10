@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    background-image: url(/items/snakebg.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.gameArea {
+    display: grid;
+    margin: 5vh 10vw;
+    background-image: linear-gradient(rgb(91, 219, 245), rgb(82, 247, 109));
+    height: 90vh;
+    width: 40vw;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    border: solid black;
+}
+
+.food {
+    background-color: brown;
+}
+
+.snakeHead {
+    background-color: red;
+}
+
+.snakeBody {
+    background-color: coral;
+}
